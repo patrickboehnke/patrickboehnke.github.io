@@ -16,4 +16,8 @@ title: OpenTelemetry Metrics: Efficient?
   Page load times
 ```
 # The problem with Metrics
-Metrics are fantastic for keeping tabs on your infrastructure. You need to know that your servers have memory available or that they aren't at 100% CPU utilization. But, this usefulness comes with a downside: **metrics** are incredibly inefficient from a storage perspective. For every data point you record you have to store the entire set of labels. 
+Metrics are fantastic for keeping tabs on your infrastructure. You need to know that your servers have memory available or that they aren't at 100% CPU utilization. But, this usefulness comes with a downside: **metrics** are incredibly inefficient from a storage perspective. For every data point you record you have to store the entire set of labels. This is a problem because a lot of vendors charge based on the volume of ingested data ($/GB).
+
+# Some solution ideas
+## Store multiple values in each **metric** entry
+## Use the fewest labels you can
