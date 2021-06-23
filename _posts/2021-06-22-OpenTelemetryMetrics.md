@@ -1,6 +1,9 @@
 ---
 layout: post
-title: Hello and Welcome!
+title: OpenTelemetry Metrics: Efficient?
 ---
-# Mission
-To help people solve challenges by understanding and modeling data. 
+
+# What you're getting by reading this
+-
+
+# The problem with Metrics
