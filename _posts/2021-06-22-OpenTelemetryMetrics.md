@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OpenTelemetry Metrics: Efficient?
-date: 2021-06-22
+date: June 22, 2021
 ---
 
 # What you're getting by reading this
