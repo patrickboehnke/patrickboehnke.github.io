@@ -26,4 +26,6 @@ This is the easiest and most sensible way to cut down on the ingest data volume.
 The downsides are:
 1. Your vendor/technology needs to support this
 2. It is not consistent with **metrics** best practices
+
 ## Use the fewest labels you can
+If the first solution wasn't enough or you can't pursue it then the next best option is to eliminate any unnecessary labels from your **metrics**.
