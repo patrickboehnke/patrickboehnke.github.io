@@ -1,7 +1,6 @@
 ---
 layout: post
-title: OpenTelemetry Metrics: Efficient?
-date: June 22, 2021
+title: OpenTelemetry Metrics - Efficient?
 ---
 
 # What you're getting by reading this
