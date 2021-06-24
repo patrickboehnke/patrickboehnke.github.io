@@ -32,7 +32,7 @@ The downsides are:
 2. It is not consistent with **metrics** best practices
 
 ## Use fewer labels
-If the first solution wasn't enough or you can't pursue it then the next best option is to eliminate any unnecessary labels from your **metrics**.
+If the first solution wasn't enough or you can't pursue it then the next best option is to eliminate any unnecessary labels from your **metrics**. One problem that might arise if you go too far with reducing labels is that you might not have sufficient context to understand the **metrics**. In a future post we'll discuss this issue, but for now just cut your labels down as much as possible without losing context.
 
 ## Use shorter labels
 Labels should be long enough to be meaningful but not so long that you're sending an essay with each **metric**. Depending on your situation you can use IDs or abbreviations to save on characters.
