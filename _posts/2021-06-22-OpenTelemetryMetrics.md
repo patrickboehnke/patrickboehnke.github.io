@@ -4,8 +4,10 @@ title: OpenTelemetry Metrics - Efficient?
 date: June 22, 2021
 ---
 
-# What you're getting by reading this
--
+# What we're covering
+- What **metrics** are
+- Why **metrics** are inefficient
+- Some tips to help you use **metrics** efficiently
 
 # What are Metrics?
 **Metrics** are a concept in software telemetry that consists of a single numeric value tracked over time. They are identified by **Labels**, which are descriptive attributes (e.g., hostname, service name, etc). **Metrics** are generally sent to a company providing observability services such as [New Relic](https://newrelic.com/) or [Splunk] (https://www.splunk.com/).
@@ -33,4 +35,4 @@ The downsides are:
 If the first solution wasn't enough or you can't pursue it then the next best option is to eliminate any unnecessary labels from your **metrics**.
 
 ## Use shorter labels
-Labels should be long enough to be meaningful but not so long that you're sending an essay with each **metric**. Depending on your situation you can use IDs or abbreviations to save on characters. 
+Labels should be long enough to be meaningful but not so long that you're sending an essay with each **metric**. Depending on your situation you can use IDs or abbreviations to save on characters.
