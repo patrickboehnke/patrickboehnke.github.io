@@ -10,3 +10,8 @@ date: June 24, 2021
 
 # What is **Cardinality**
 **Cardinality** is a measure of the number of distinct elements in a group. In a monitoring/telemetry context consider the server type (e.g., web or database) versus a unique identifier. The former is low **cardinality** while the latter is high **cardinality**.
+
+# Why you should care about **cardinality**
+'THE SYSTEM IS DOWN!'... F*ck, where are my glasses... Why did I turn my computer off?... Theres blocking in the database... Which database? Which server? All my metrics tell me is blocking... somewhere
+
+That's what happens when your metrics have labels with only low **cardinality**. You can't relate a specific metric to a specific place or application/service.
